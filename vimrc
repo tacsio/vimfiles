@@ -48,7 +48,7 @@ Bundle 'wincent/Command-T.git'
 Bundle 'vim-scripts/bash-support.vim.git'
 Bundle 'pangloss/vim-javascript.git'
 Bundle 'jamescarr/snipmate-nodejs.git'
-
+Bundle 'adimit/prolog.vim'
 
 " vim-scripts repos
 Bundle 'L9'
