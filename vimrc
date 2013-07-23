@@ -49,6 +49,7 @@ Bundle 'vim-scripts/bash-support.vim.git'
 Bundle 'pangloss/vim-javascript.git'
 Bundle 'jamescarr/snipmate-nodejs.git'
 Bundle 'adimit/prolog.vim'
+Bundle 'widox/vim-buffer-explorer-plugin'
 
 " vim-scripts repos
 Bundle 'L9'
@@ -225,9 +226,9 @@ endfunction
 
 "indent settings
 set tabstop=2
-set shiftwidth=2
-set softtabstop=2
-set expandtab
+"set shiftwidth=2
+"set softtabstop=2
+set noexpandtab
 set autoindent
 
 "folding settings
