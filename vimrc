@@ -49,6 +49,7 @@ Bundle 'pangloss/vim-javascript.git'
 Bundle 'jamescarr/snipmate-nodejs.git'
 Bundle 'adimit/prolog.vim'
 Bundle 'widox/vim-buffer-explorer-plugin'
+Bundle 'tfnico/vim-gradle'
 
 " vim-scripts repos
 Bundle 'L9'
