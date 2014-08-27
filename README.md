@@ -1,7 +1,7 @@
 Vimfiles
 ========
 
-Vim files bundler like with vundle (https://github.com/gmarik/vundle)
+Vim files for vundle plugin manager (https://github.com/gmarik/vundle)
 
 
 Usage

@@ -1,62 +1,75 @@
 set nocompatible               " be iMproved
 filetype off                   " required!
 
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
 
-Bundle 'gmarik/vundle'
+Plugin 'gmarik/Vundle.vim'
 
-" my bundles:
-Bundle 'tpope/vim-fugitive'
-Bundle 'Lokaltog/vim-easymotion'
-Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
-Bundle 'tpope/vim-rails.git'
-Bundle 'tpope/vim-haml.git'
-Bundle 'scrooloose/nerdtree.git'
-Bundle 'scrooloose/nerdcommenter.git'
-Bundle 'tpope/vim-markdown.git'
-Bundle 'tpope/vim-git.git'
-Bundle 'tpope/vim-endwise.git'
-Bundle 'scrooloose/syntastic.git'
-Bundle 'timcharper/textile.vim.git'
-Bundle 'vim-ruby/vim-ruby.git'
-Bundle 'tpope/vim-unimpaired.git'
-Bundle 'cakebaker/scss-syntax.vim.git'
-Bundle 'mileszs/ack.vim.git'
-Bundle 'kchmck/vim-coffee-script.git'
-Bundle 'ervandew/supertab.git'
-Bundle 'hallison/vim-ruby-sinatra.git'
-Bundle 'ciaranm/securemodelines.git'
-Bundle 'kana/vim-textobj-user.git'
-Bundle 'nelstrom/vim-textobj-rubyblock.git'
-Bundle 'greyblake/vim-preview.git'
-Bundle 'tpope/vim-abolish.git'
-Bundle 'akhil/scala-vim-bundle.git'
-Bundle 'mattn/zencoding-vim.git'
-Bundle 'digitaltoad/vim-jade.git'
-Bundle 'itspriddle/vim-jquery.git'
-Bundle 'othree/html5.vim.git'
-Bundle 'mattn/webapi-vim'
-Bundle 'mattn/gist-vim'
-Bundle 'chrismetcalf/vim-yankring.git'
-Bundle 'tpope/vim-bundler.git'
-Bundle 'tpope/vim-rvm.git'
-Bundle 'asux/vim-capybara.git'
-Bundle 'vim-scripts/grep.vim.git'
-Bundle 'wincent/Command-T.git'
-Bundle 'vim-scripts/bash-support.vim.git'
-Bundle 'pangloss/vim-javascript.git'
-Bundle 'jamescarr/snipmate-nodejs.git'
-Bundle 'adimit/prolog.vim'
-Bundle 'widox/vim-buffer-explorer-plugin'
-Bundle 'tfnico/vim-gradle'
+" my Vundles:
+Plugin 'tpope/vim-fugitive'
+Plugin 'airblade/vim-gitgutter.git'
+Plugin 'Lokaltog/vim-easymotion'
+Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
+Plugin 'tpope/vim-rails.git'
+Plugin 'tpope/vim-haml.git'
+Plugin 'scrooloose/nerdtree.git'
+Plugin 'scrooloose/nerdcommenter.git'
+Plugin 'tpope/vim-markdown.git'
+Plugin 'tpope/vim-git.git'
+Plugin 'tpope/vim-endwise.git'
+Plugin 'scrooloose/syntastic.git'
+Plugin 'timcharper/textile.vim.git'
+Plugin 'vim-ruby/vim-ruby.git'
+Plugin 'tpope/vim-unimpaired.git'
+Plugin 'cakebaker/scss-syntax.vim.git'
+Plugin 'mileszs/ack.vim.git'
+Plugin 'kchmck/vim-coffee-script.git'
+Plugin 'ervandew/supertab.git'
+Plugin 'hallison/vim-ruby-sinatra.git'
+Plugin 'ciaranm/securemodelines.git'
+Plugin 'kana/vim-textobj-user.git'
+Plugin 'nelstrom/vim-textobj-rubyblock.git'
+Plugin 'greyblake/vim-preview.git'
+Plugin 'tpope/vim-abolish.git'
+Plugin 'akhil/scala-vim-bundle.git'
+Plugin 'mattn/zencoding-vim.git'
+Plugin 'digitaltoad/vim-jade.git'
+Plugin 'itspriddle/vim-jquery.git'
+Plugin 'othree/html5.vim.git'
+Plugin 'mattn/webapi-vim'
+Plugin 'mattn/gist-vim'
+Plugin 'chrismetcalf/vim-yankring.git'
+Plugin 'tpope/vim-bundler.git'
+Plugin 'tpope/vim-rvm.git'
+Plugin 'asux/vim-capybara.git'
+Plugin 'vim-scripts/grep.vim.git'
+Plugin 'wincent/Command-T.git'
+Plugin 'vim-scripts/bash-support.vim.git'
+Plugin 'pangloss/vim-javascript.git'
+Plugin 'jamescarr/snipmate-nodejs.git'
+Plugin 'adimit/prolog.vim'
+Plugin 'widox/vim-buffer-explorer-plugin'
+Plugin 'tfnico/vim-gradle'
 
 " vim-scripts repos
-Bundle 'L9'
-Bundle 'FuzzyFinder'
+Plugin 'L9'
+Plugin 'FuzzyFinder'
 " non github repos
 
+call vundle#end()     				" required!
 filetype plugin indent on     " required!
+
+"
+" Brief help
+" :PluginList          - list configured bundles
+" :PluginInstall(!)    - install(update) bundles
+" :PluginSearch(!) foo - search(or refresh cache first) for foo
+" :PluginClean(!)      - confirm(or auto-approve) removal of unused bundles
+"
+" see :h vundle for more details or wiki for FAQ
+" NOTE: comments after Bundle command are not allowed..
+
 
 "Use Vim settings, rather then Vi settings (much better!).
 "This must be first, because it changes other options as a side effect.
@@ -299,16 +312,6 @@ map <A-k> :cprevious<CR>
 
 "key mapping for Gundo
 nnoremap <F4> :GundoToggle<CR>
-
-"
-" Brief help
-" :BundleList          - list configured bundles
-" :BundleInstall(!)    - install(update) bundles
-" :BundleSearch(!) foo - search(or refresh cache first) for foo
-" :BundleClean(!)      - confirm(or auto-approve) removal of unused bundles
-"
-" see :h vundle for more details or wiki for FAQ
-" NOTE: comments after Bundle command are not allowed..
 
 
 
