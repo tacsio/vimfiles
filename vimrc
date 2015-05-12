@@ -37,6 +37,7 @@ Plugin 'jamescarr/snipmate-nodejs.git'
 Plugin 'adimit/prolog.vim'
 Plugin 'tfnico/vim-gradle'
 Plugin 'asux/vim-capybara.git'
+Plugin 'burnettk/vim-angular'
 
 " Utility
 Plugin 'tpope/vim-unimpaired.git'
