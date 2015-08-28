@@ -59,6 +59,7 @@ Plugin 'tpope/vim-rvm.git'
 Plugin 'tpope/vim-bundler.git'
 Plugin 'wincent/Command-T.git'
 Plugin 'vim-scripts/bash-support.vim.git'
+Plugin 'tacsio/Conque-Shell.git'
 
 " vim-scripts repos
 Plugin 'L9'
