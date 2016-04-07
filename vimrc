@@ -60,6 +60,8 @@ Plugin 'tpope/vim-bundler.git'
 Plugin 'wincent/Command-T.git'
 Plugin 'vim-scripts/bash-support.vim.git'
 Plugin 'tacsio/Conque-Shell.git'
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
 
 " vim-scripts repos
 Plugin 'L9'
@@ -89,6 +91,24 @@ set backspace=indent,eol,start
 
 "store lots of :cmdline history
 set history=1000
+
+
+"Vim air-line
+let g:airline#extensions#tabline#enabled = 1
+let g:airline_powerline_fonts = 1
+
+if !exists('g:airline_symbols')
+  let g:airline_symbols = {}
+endif
+let g:airline_symbols.space = "\ua0"
+
+let g:airline_theme='powerlineish'
+
+"let g:airline_left_sep = ''
+"let g:airline_right_sep = ''
+"let g:airline_left_alt_sep = ''
+"let g:airline_right_alt_sep = ''
+
 
 set showcmd     "show incomplete cmds down the bottom
 set showmode    "show current mode down the bottom
