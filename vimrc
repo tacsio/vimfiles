@@ -24,7 +24,7 @@ Plugin 'tpope/vim-haml.git'
 Plugin 'tpope/vim-markdown.git'
 Plugin 'nelstrom/vim-textobj-rubyblock.git'
 Plugin 'akhil/scala-vim-bundle.git'
-Plugin 'mattn/zencoding-vim.git'
+Plugin 'mattn/emmet-vim.git'
 Plugin 'digitaltoad/vim-jade.git'
 Plugin 'itspriddle/vim-jquery.git'
 Plugin 'othree/html5.vim.git'
@@ -415,7 +415,7 @@ vmap <D-]> >gv
 let ScreenShot = {'Icon':0, 'Credits':0, 'force_background':'#FFFFFF'}
 
 "Enabling Zencoding
-let g:user_zen_settings = {
+let g:user_emmet_settings = {
   \  'php' : {
   \    'extends' : 'html',
   \    'filters' : 'c',
