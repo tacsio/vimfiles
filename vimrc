@@ -17,6 +17,7 @@ Plugin 'vim-scripts/grep.vim.git'
 
 " Color Schemes
 Plugin 'flazz/vim-colorschemes'
+Plugin 'dracula/vim'
 
 " Programming
 Plugin 'tpope/vim-rails.git'
