@@ -4,7 +4,8 @@ filetype off                   " required!
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
-Plugin 'gmarik/Vundle.vim'
+
+Plugin 'VundleVim/Vundle.vim'
 
 " Files
 Plugin 'tpope/vim-fugitive'
@@ -60,7 +61,7 @@ Plugin 'tpope/vim-rvm.git'
 Plugin 'tpope/vim-bundler.git'
 Plugin 'wincent/Command-T.git'
 Plugin 'vim-scripts/bash-support.vim.git'
-Plugin 'tacsio/Conque-Shell.git'
+Plugin 'vim-scripts/Conque-Shell.git'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 
